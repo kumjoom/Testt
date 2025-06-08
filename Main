@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sustainable Travel | Home</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🌱 HumanSoul Travel</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#join">Join Us</a></li>
+      <li>
+        <select id="lang-select">
+          <option value="en">EN</option>
+          <option value="th">TH</option>
+          <option value="es">ES</option>
+          <option value="zh">中文</option>
+        </select>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Explore Cultures. Empower Communities.</h1>
+      <p>Join meaningful journeys where locals and volunteers grow together.</p>
+      <a href="#join" class="btn-primary">Become a Volunteer</a>
+      <a href="#host" class="btn-secondary">Register as a Host</a>
+    </div>
+  </section>
+
+  <!-- Experiences Section -->
+  <section id="experiences" class="section">
+    <h2>Community Experiences</h2>
+    <div class="experience-grid">
+      <div class="card">
+        <img src="img/farming.jpg" alt="Organic Farming"/>
+        <h3>Organic Farming in Chiang Mai</h3>
+        <p>Learn and help in sustainable agriculture with hilltribe families.</p>
+      </div>
+      <div class="card">
+        <img src="img/teach.jpg" alt="Teaching Kids"/>
+        <h3>Teach English in Isaan</h3>
+        <p>Support rural education while living with warm-hearted locals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>Why Choose Us?</h2>
+    <p>We connect people with real communities through responsible, human-centered travel. All proceeds support local education, environment and culture preservation.</p>
+  </section>
+
+  <!-- Join Section -->
+  <section id="join" class="section">
+    <h2>Join the Movement</h2>
+    <p>Sign up as a volunteer or host to build meaningful exchanges.</p>
+    <div class="join-buttons">
+      <a href="#" class="btn-primary">Sign Up as Volunteer</a>
+      <a href="#" class="btn-secondary">Sign Up as Host</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 HumanSoul Travel | Made with 🌏 in rural spirit</p>
+  </footer>
+
+</body>
+</html>
